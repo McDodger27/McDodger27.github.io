@@ -1,0 +1,115 @@
+body {
+    background-image: linear-gradient(to bottom, #FFFFFF,#222222);
+    color: antiquewhite;
+    background-repeat: no-repeat;
+}
+nav {
+    float: left;
+    width: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 150%;
+}
+nav a:link {
+    color: #111111;
+}
+nav a:visited {
+    color: #008DAC;
+}
+nav a:hover {
+    color: #335599
+}
+header {
+    background-color: antiquewhite;
+    margin-top: 0;
+}
+h1 {
+    background-color: antiquewhite;
+    color: #222222;
+}
+#list {
+    background-image: url(head.jpg);
+    font-size: large;
+    color: white;
+    font-size: 200%;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-image: linear-gradient(to bottom,#058dac,#000000);
+    min-width: 1000px;
+    max-width: 1836px;
+    box-shadow: 3px 3px 3px #333333;
+    border: 1px solid #000033;
+}
+table {
+    background-color: antiquewhite;
+    color: #222222;
+    border: solid 3px #056D87;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td,th {
+    border: solid 3px #056D87;
+    padding: 5px;
+    text-align: center;
+}
+tr:nth-of-type(odd) {
+    background-color: #FFFFFF;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+    border: solid 2px antiquewhite;
+    box-shadow: 2px 2px 2px #000088;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+
+
+
+
+
